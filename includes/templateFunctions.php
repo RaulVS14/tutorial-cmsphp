@@ -11,5 +11,11 @@ class TemplateFunctions extends CmsBase{
     function setTemplate($templateName){
         $this->templateName=$templateName;
     }
+    function appOutput(){
+        require_once('includes/cmsApplication.php');
+        $app=new CmsApplication();
+        $app->run();
+        
+    }
 }
 ?>
