@@ -5,10 +5,10 @@
 </head>
 <body>
 <div class="wrapper">
-    <div class="header">MyCMS</div>
+    <div class="header"><?php $this->widgetOutput('PositionName');?></div>
     <div class='clear'></div>
     <div class="sidebar">
-        this is sidebar
+        <?php $this->widgetOutput('sidebarPosition');?>
         <br><br><br><br><br><br><br>
     </div>
     <div class='content'><?php echo $this->appOutput();?>
