@@ -2,13 +2,13 @@
 require_once('cmsBase.php');
 class CmsApplication extends CmsBase{
     function addcontent(){
-        echo "Add"
+        echo "Add";
     }
     function viewcontent(){
-        echo "view"
+        echo "view";
     }
     function anyothertask(){
-        echo "other tasks"
+        echo "other tasks";
     }
 }
 ?>
