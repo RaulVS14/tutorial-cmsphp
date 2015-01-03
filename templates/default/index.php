@@ -5,7 +5,7 @@
 </head>
 <body>
 <div class="wrapper">
-    <div class="header"><?php $this->widgetOutput('PositionName');?></div>
+    <div class="header"><?php $this->widgetOutput('logoPosition');?></div>
     <div class='clear'></div>
     <div class="sidebar">
         <?php $this->widgetOutput('sidebarPosition');?>
