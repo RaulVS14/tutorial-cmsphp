@@ -20,14 +20,8 @@ class CmsApplication extends CmsBase{
             $this->display();
         }
     }
-    function addcontent(){
-        echo "Add";
-    }
     function display(){
-        echo "view";
-    }
-    function anyothertask(){
-        echo "other tasks";
+        echo 'default display';
     }
 }
 ?>
